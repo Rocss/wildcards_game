@@ -1,0 +1,21 @@
+{
+  "name": "sequelize_playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect index.js",
+    "live": "nodemon index.js"
+  },
+  "author": "roxana manole",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0",
+    "uppercamelcase": "^3.0.0"
+  }
+}
