@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const config = require('./config/database.js');
 
 const users  = require('./routes/users');
+const wildcards  = require('./routes/wildcards');
 
 const { database, username, password } = config.development;
 
@@ -27,6 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use('/users', users);
+app.use('/wildcards', wildcards);
 
 sequelize
   .authenticate()
