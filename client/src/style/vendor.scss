@@ -1,0 +1,12 @@
+// Bulma
+@import "bulma-scss/utilities/_all.scss";
+@import "bulma-scss/base/_all.scss";
+@import "bulma-scss/elements/_all.scss";
+@import "bulma-scss/form/_all.scss";
+@import "bulma-scss/components/_all.scss";
+@import "bulma-scss/grid/_all.scss";
+@import "bulma-scss/layout/_all.scss";
+
+// Material Icons
+$material-icons-font-path: '~material-icons/iconfont/';
+@import 'material-icons/iconfont/material-icons.scss';

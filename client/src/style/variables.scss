@@ -1,0 +1,20 @@
+// brand colors
+$gray: #626c78;
+$gray-light: #999FAE;
+$gray-lighter: #F5F6FA;
+
+$royal-blue: #445dc7;
+$baby-blue: #6F90E1;
+
+// Update Bulma's global variables
+$primary: $royal-blue;
+
+// Update some of Bulma's component variables
+$body-background-color: $gray-lighter;
+$body-font-size: 16px;
+$text: $gray;
+
+// Navbar
+$navbar-item-color: $gray;
+$navbar-item-hover-color: $baby-blue;
+$navbar-item-active-color: $primary;
