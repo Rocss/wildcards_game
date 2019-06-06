@@ -11,6 +11,8 @@
     }
 
     .navbar-item {
+      font-size: $small-font-size;
+
       &.is-active::before {
         content: '';
         width: 100%;

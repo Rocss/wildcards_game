@@ -6,15 +6,28 @@ $gray-lighter: #F5F6FA;
 $royal-blue: #445dc7;
 $baby-blue: #6F90E1;
 
+$deep-pink: #f52f80;
+$lavenderblush: #feedf7;
 // Update Bulma's global variables
 $primary: $royal-blue;
 
 // Update some of Bulma's component variables
+$family-sans-serif: "Nunito", sans-serif;
 $body-background-color: $gray-lighter;
 $body-font-size: 16px;
 $text: $gray;
+
+// Hr
+$hr-background-color: rgba($gray-light, 0.5);
+$hr-height: 1px;
+
+// Cards
+$card-shadow: 0 0.25rem 0.25rem 0.125rem rgba($gray-light, 0.125);
 
 // Navbar
 $navbar-item-color: $gray;
 $navbar-item-hover-color: $baby-blue;
 $navbar-item-active-color: $primary;
+
+$tag-background-color: $lavenderblush;
+$tag-color: $deep-pink;
