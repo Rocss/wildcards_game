@@ -1,3 +1,28 @@
 .button {
   font-size: $small-font-size;
+  font-weight: 700;
+  height: auto;
+
+  &.is-transparent {
+    background: none;
+    border: none;
+  }
+}
+
+.buttons-toggle {
+  display: inline-block;
+  width: 100%;
+  background: rgba($baby-blue, 0.1);
+  padding: 0.25rem;
+  border-radius: 2px;
+  
+  button {
+    padding: 0.25rem 1rem;
+    color: $gray !important;
+    width: 50%;
+
+    &.is-transparent {
+      color: $gray-light !important;
+    }
+  }
 }

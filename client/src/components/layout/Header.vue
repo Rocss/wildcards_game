@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <div class="has-text-primary">SOMETHING HERE</div>
+        <b class="has-text-success">SOMETHING HERE</b>
       </a>
     </div>
     <div class="navbar-menu">
@@ -12,7 +12,6 @@
           :to="link.name"
           tag="a"
           class="navbar-item is-capitalized"
-          active-class="is-active"
         >
           <div class="icon is-large"><i class="material-icons">{{link.icon}}</i></div>
           <span>{{link.name}}</span>
@@ -27,7 +26,6 @@ export default {
     return {
       links: [
         { name: 'dashboard', icon: 'dashboard' },
-        { name: 'wildcards', icon: 'filter_none' },
         { name: 'stats', icon: 'pie_chart' },
       ],
     };

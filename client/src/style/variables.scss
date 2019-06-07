@@ -8,8 +8,12 @@ $baby-blue: #6F90E1;
 
 $deep-pink: #f52f80;
 $lavenderblush: #feedf7;
+
+$mediumaquamarine: #65cdb5;
+
 // Update Bulma's global variables
 $primary: $royal-blue;
+$success: $mediumaquamarine;
 
 // Update some of Bulma's component variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -25,7 +29,7 @@ $hr-height: 1px;
 $card-shadow: 0 0.25rem 0.25rem 0.125rem rgba($gray-light, 0.125);
 
 // Navbar
-$navbar-item-color: $gray;
+$navbar-item-color: $gray-light;
 $navbar-item-hover-color: $baby-blue;
 $navbar-item-active-color: $primary;
 
