@@ -14,7 +14,7 @@
     "express": "^4.16.3",
     "express-validator": "^5.3.0",
     "pg": "^7.4.3",
-    "sequelize": "^4.38.0",
+    "sequelize": "^5.15.1",
     "sequelize-cli": "^4.0.0",
     "uppercamelcase": "^3.0.0"
   }
